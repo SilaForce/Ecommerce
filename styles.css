@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: poppins;
+    margin-left: 1px;
+}
+.center
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 60vh;
+}
+.product_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 800px;
+	}
+    .product-frame
+    {
+        border-radius: 10px;
+        box-shadow: 4px 4px 4px gray;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .buttons
+    {
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+ .name {
+	font-weight:bold;
+	}
+  
+ .buy {
+	text-transform: uppercase;
+    background: #F68B1E;
+    border: 1px solid #F68B1E;
+    cursor: pointer;
+    border-radius: 0px 0px 10px 10px;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+.buy:hover {
+	background: #f17e0a;
+    border-color: #f17e0a;
+}
+ .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+
+
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+.mobiles{
+    font-family: poppins;
+    text-align: center;
+    padding-left: 40px;
+    font-weight: 600;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: poppins;
+}
+.headder{
+    background-color: rgb(168, 162, 168);
+    width: 100%;
+    height: 50px;
+}
+.logo h2{
+    color: white;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.navbar ul{
+    list-style: none;
+    display:inline-flex;
+    float: right;
+    margin-top: -39px;
+    
+
+}
+.navbar li{
+    padding: 10px 25px;
+    font-weight: 500;
+
+
+}
+.navbar li a{
+    color:white;
+
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+    fill: white;
+}
